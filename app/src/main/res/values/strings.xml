@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MultiPageDragDemo</string>
+    <string name="splash_contact_link">https://github.com/hjsuperboy</string>
+    <string name="edit_done">完成</string>
+    <string name="add_website_title">网站名称</string>
+    <string name="add_website_url">网址</string>
+    <string name="add_grid">添加</string>
+
+    <item type="id" name="img_tag" />
+</resources>

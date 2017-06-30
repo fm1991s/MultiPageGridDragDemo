@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="-10dp"
+            android:scaleType="center"
+            android:src="@drawable/add_grid_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/add_grid_back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/add_grid"
+            android:id="@+id/add_grid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <EditText
+        android:textColorHint="@color/gray_575757"
+        android:textColor="@color/black_1A1E24"
+        android:textSize="@dimen/add_grid_edit_text_size"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:hint="@string/add_website_title"
+        android:background="@drawable/add_grid_edit_bg"
+        android:layout_marginTop="30dp"
+        android:id="@+id/add_website_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_grid_website_edit_height" />
+
+    <EditText
+        android:textColorHint="@color/gray_575757"
+        android:textColor="@color/black_1A1E24"
+        android:textSize="@dimen/add_grid_edit_text_size"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:hint="@string/add_website_url"
+        android:background="@drawable/add_grid_edit_bg"
+        android:layout_marginTop="5dp"
+        android:id="@+id/add_website_url"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_grid_website_edit_height" />
+
+    <Button
+        android:layout_marginTop="@dimen/add_grid_btn_top_margin"
+        android:background="@drawable/add_grid_btn_bg"
+        android:textColor="@color/white"
+        android:textSize="@dimen/add_grid_edit_text_size"
+        android:gravity="center"
+        android:id="@+id/add_grid"
+        android:text="@string/add_grid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_grid_website_edit_height" />
+
+</LinearLayout>
